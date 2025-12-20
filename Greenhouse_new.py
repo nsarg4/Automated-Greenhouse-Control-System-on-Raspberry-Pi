@@ -13,15 +13,9 @@
 '''
 #Գրադարանների ներմուծում
 #Գրաֆիկական ինտերֆեյսն ապահովող գրադարան
-from tkinter import *  
 import tkinter as tk
-from tkinter.ttk import Combobox
-from tkinter.ttk import Radiobutton
-from tkinter import messagebox
-from tkinter import PhotoImage
-from tkinter.ttk import Progressbar
-from tkinter import scrolledtext
-from tkinter import Menu
+from tkinter import messagebox, scrolledtext, Menu, PhotoImage
+from tkinter.ttk import Combobox, Radiobutton, Progressbar
 from tkinter import ttk
 import smtplib 
 #Ժամանակի և ամսաթվի հետ աշխատելու գրադարան
